@@ -1,23 +1,33 @@
-import logo from './logo.svg';
+import React from 'react';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Navigation from './components/Navigation';
+import Project from './components/Project';
+import ContactForm from './components/Contact';
 import './App.css';
 
 function App() {
+  const [categories] = useState([
+    {
+      name: 'About Me'
+    },
+    {
+      name: 'Portfolio'
+    },
+    {
+      name: 'Contact'
+    },
+    {
+      name: 'Resume'
+    }
+  ]);
+
+  const [currentCategory, setCurrentCategory] = useState(categories[0]);
+
+  const [contactSelected, setContactSelected] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header></Header>
     </div>
   );
 }
