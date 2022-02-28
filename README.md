@@ -1,5 +1,4 @@
 # Portfolio MKII
-# Portfolio MKII
 
 ## Description
 I updated my portfolio with React. Now you can download my Resume and navigate through different pages without reloading the page.
