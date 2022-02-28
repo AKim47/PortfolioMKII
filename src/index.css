@@ -89,7 +89,7 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: var(--tertiary);
 }
 
 header a {
@@ -162,6 +162,15 @@ textarea {
   padding: 5px;
 }
 
+footer {
+  background: var(--tertiary);
+  
+}
+
+footer a{
+  color: var(--light);
+}
+
 .container {
   width: 85%;
   max-width: 1200px;
@@ -230,12 +239,13 @@ textarea {
 .card {
   width: 25%;
   text-align: center;
+  background: var(--light)
 }
 
 .img-thumbnail {
   width: auto;
   height: 300px;
-  margin-bottom: 50px;
+  margin: 0px;
   cursor: pointer;
 }
 

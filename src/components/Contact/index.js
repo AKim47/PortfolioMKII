@@ -39,6 +39,8 @@ function ContactForm() {
   return (
     <section>
       <h1 data-testid="h1tag">Contact me</h1>
+      <p>My Email: abel.kim.22@gmail.com</p>
+      <p>My Phone Number: 469-773-9118</p>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
