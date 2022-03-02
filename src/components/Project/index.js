@@ -19,6 +19,12 @@ function Project() {
           alt: 'PWABudgetTracker',
           github: 'https://github.com/AKim47/PWABudgetTracker',
           live: 'https://agile-river-30422.herokuapp.com/'
+        },
+        {
+          img: 'homepage',
+          alt: 'fitr project website',
+          github: 'https://github.com/SmasherCoder/fitr',
+          live: 'https://fitrfitr.herokuapp.com/'
         }
       ]);
 
